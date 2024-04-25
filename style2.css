@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+}
+
+.namedata {
+    margin-left: 20px;
+    font-weight: 700;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.uplod {
+    margin: 50px;
+    margin-top: 50px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    padding: 200px;
+    border: 1px dotted aqua;
+}
+
+.save input {
+    width: 80%;
+    height: 50px;
+    border: 1px solid aqua;
+    margin-left: 50px;
+    border-radius: 10px;
+}
+
+button {
+    color: aqua;
+    background-color: black;
+    border: 1px solid aqua;
+    padding: 20px;
+    margin-left: 30px;
+    border-radius: 10px
+}
+
+a {
+    text-decoration: none;
+}
+
+/* button:hover {
+    background-color: white;
+    color: black;
+} */
+
+main {
+    margin-top: 50px;
+}
+
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    height: 60px;
+}
+
+.left-nav {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    margin-top: 10px;
+}
+
+.left-nav h1 {
+    font-weight: 800;
+    font-size: 1.8rem;
+    margin-left: 10px;
+
+}
+
+.left-nav input {
+    width: 300px;
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 6px;
+    margin-top: 3px;
+    text-align: center;
+}
+
+.right-nav ul {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    margin-top: 10px;
+    list-style: none;
+    padding: 10px;
+}
+
+.right-nav li:hover {
+    color: aqua;
+}

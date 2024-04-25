@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fdfbfb;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 500px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #f8f2f2;
+            box-shadow: 0px 0px 10px rgba(252, 236, 236, 0.1);
+            border-radius: 5px;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        form {
+            margin-top: 30px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        input[type="text"],
+        input[type="password"],
+        input[type="email"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+
+        input[type="submit"] {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+
+        a {
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h2>Sign Up</h2>
+        <form id="signup-form" action="process_signup.php" method="post">
+            <label for="username">Username:</label>
+            <input type="text" id="first-name" name="username" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+
+
+            <label for="Re-enter password">Collage id:</label>
+            <input type="text" id="phone-number" name="Re-enter password" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <label for="collage name">Collage Name:</label>
+            <input type="text" id="collageName" name="collage name" required>
+
+            <label for="state name">State:</label>
+            <input type="text" id="stateName" name="state name" required>
+
+            <label for="city name">City:</label>
+            <input type="text" id="cityName" name="city name" required>
+
+
+            <input type="submit" value="Sign Up">
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
